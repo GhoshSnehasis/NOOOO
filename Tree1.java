@@ -1,3 +1,61 @@
+/*You are given a rooted tree that contains 
+ nodes. Each node contains a lowercase alphabet.
+
+You are required to answer 
+ queries of type 
+, where 
+ is an integer and 
+ is a lowercase alphabet. The count of nodes in the subtree of the node 
+ containing 
+ is considered as the answer of all the queries. 
+
+Input format
+
+First line: Two space-separated integers 
+ respectively
+Second line: A string 
+ of length 
+ (where the 
+ character of 
+ represents the character stored in node 
+)
+Next 
+ line: Two space-separated integers 
+ and 
+ denoting an edge between node 
+ and node 
+Next 
+ lines: An integer 
+ and a space-separated character 
+ 
+Output format
+For each query, print the output in a new line. 
+
+Constraints
+
+
+ is a lowercase alphabet
+ is a lowercase alphabet for all 
+ is the root node
+Note: It is guaranteed that the input generates a valid tree.
+
+Sample Input
+3 1
+aba
+1 2
+1 3
+1 a
+Sample Output
+2
+Time Limit: 1
+Memory Limit: 256
+Source Limit:
+Explanation
+Tree given in the sample input will look like that.*/
+
+
+
+Number of nodes in the subtree of node 1 having 'a' stored in it is 2. 
 import java.util.ArrayList;
 import java.util.Scanner;
 
